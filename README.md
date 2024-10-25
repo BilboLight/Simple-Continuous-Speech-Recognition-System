@@ -77,5 +77,5 @@ The inference script can load the pre-trained model and perform speech recogniti
 
 Once the dependencies are installed, you can use it without any additional configuration.<br><br>
 
-#### 5、If you like it, please give it a star. Thanks~~
+#### 5、If you like it, please give it a star. Thank you very much.
 <br><br><br><br>
