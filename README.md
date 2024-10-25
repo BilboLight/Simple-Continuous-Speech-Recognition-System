@@ -17,25 +17,22 @@
 - bird, cat, dog
 
 #### （5）其他
-- bed, house, happy, tree, wow, Sheila, learn, visual, Marvin
+- bed, house, happy, tree, wow, learn, visual, sheila, marvin
 
----
 
 ### 2）模型文件: `speech_commands_model_epoch_20_9621--64mel.pth`
 
-这是已经训练好的模型，模型在 `speech-commands` 测试集上的准确率为 **96.05%**。
+已经训练好的模型，模型在 `speech-commands` 测试集上的准确率为 **96.05%**。
 
----
 
 ### 3）训练代码: `train.py`
 
-该脚本使用 `speech-commands` 数据集训练语音识别模型。
+使用 `speech-commands` 数据集训练语音识别模型。
 
----
 
 ### 4）推理代码: `Inference.ipynb`
 
-`Inference.ipynb` 文件加载已经训练好的模型，提供语音识别功能，支持以下功能：
+加载已经训练好的模型，进行语音识别，支持以下功能：
 
 1. **识别单个 `.wav` 音频文件** 对应的单词。
 2. **识别文件夹内所有 `.wav` 音频文件** 对应的单词。
