@@ -15,16 +15,6 @@ from sklearn.metrics import confusion_matrix
 import seaborn as sns
 import glob
 
-# 安装必要的库（如果尚未安装）
-# 请取消以下行的注释以安装 huggingface_hub
-# !pip install huggingface_hub
-# 请取消以下行的注释以安装 speechbrain（如果需要）
-# !pip install speechbrain
-
-from huggingface_hub import HfApi, HfFolder, Repository
-from huggingface_hub import notebook_login
-
-
 # 设定调试信息函数
 def debug_print(message, level="INFO"):
     print(f"[{level}] {message}")
