@@ -1,4 +1,6 @@
-# 简单语音识别系统
+# 简单的连续语音识别系统<br>
+
+这是一个简单的语音识别系统，能进行连续的语音识别，能识别 35 个词汇。<br><br>
 
 #### 1、数据集
 
@@ -40,7 +42,8 @@
 <br><br><br><br>
 
 ---
-# Simple Speech Recognition System
+# Simple Continuous Speech Recognition System<br>
+This is a simple speech recognition system capable of continuous speech recognition, with a vocabulary of 35 words.<br><br>
 
 #### 1. Dataset
 
