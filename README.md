@@ -4,30 +4,30 @@
 
 在 `speech-commands` 数据集上训练，能识别数据集内的 35 个单词：
 
-#### （1）数字类
+#### 一、数字类
 - zero, one, two, three, four, five, six, seven, eight, nine
 
-#### （2）方向类
+#### 二、方向类
 - left, right, forward, backward, up, down
 
-#### （3）命令类
+#### 三、命令类
 - go, stop, yes, no, on, off, follow
 
-#### （4）动物类
+#### 四、动物类
 - bird, cat, dog
 
-#### （5）其他
-- bed, house, happy, tree, wow, learn, visual, sheila, marvin
+#### 五、其他
+- bed, house, happy, tree, wow, learn, visual, sheila, marvin<br>
 
 
 ### 2）模型文件: `speech_commands_model_epoch_20_9621--64mel.pth`
 
-已经训练好的模型，模型在 `speech-commands` 测试集上的准确率为 **96.05%**。
+已经训练好的模型，模型在 `speech-commands` 测试集上的准确率为 **96.05%**。<br>
 
 
 ### 3）训练代码: `train.py`
 
-使用 `speech-commands` 数据集训练语音识别模型。
+使用 `speech-commands` 数据集训练语音识别模型。<br>
 
 
 ### 4）推理代码: `Inference.ipynb`
