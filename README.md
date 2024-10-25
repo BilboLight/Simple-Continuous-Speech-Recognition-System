@@ -69,7 +69,7 @@ This code trains the speech recognition model using the `speech-commands` datase
 
 <br>
 
-#### 4. Inference Code: `Inference.ipynb`
+#### 4. Code for continuous speech recognition: `Inference.ipynb`
 
 The inference script can load the pre-trained model and perform speech recognition. It supports the following functionalities:
 
