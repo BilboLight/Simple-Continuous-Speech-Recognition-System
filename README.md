@@ -27,7 +27,7 @@
 使用 `speech-commands` 数据集训练语音识别模型。<br><br>
 
 
-#### 4、推理代码: `Inference.ipynb`
+#### 4、连续语音识别的代码: `Inference.ipynb`
 
 加载已经训练好的模型，进行语音识别，支持以下功能：
 
