@@ -31,10 +31,9 @@
 
 加载已经训练好的模型，进行语音识别，支持以下功能：
 
-1. 识别单个 `.wav` 音频文件对应的单词。
-2. 识别文件夹内所有 `.wav` 音频文件对应的单词。
-3. 录音 2 秒，识别所说的单词。
-4. 连续录音，识别所说的一系列单词，并给出每个单词的 (开始时间, 结束时间)。<br>
+1. 识别 `.wav` 音频文件对应的单词。
+2. 录音 2 秒，识别所说的单个单词。
+3. 连续录音，生成字幕：识别所说的一系列单词，并给出每个单词的 (开始时间, 结束时间)。<br>
 
 安装了依赖库就可以使用，无需其他配置。<br><br>
 
@@ -73,10 +72,9 @@ This code trains the speech recognition model using the `speech-commands` datase
 
 The inference script can load the pre-trained model and perform speech recognition. It supports the following functionalities:
 
-1. Recognize the word corresponding to a single `.wav` audio file.
-2. Recognize the words corresponding to all `.wav` audio files in a folder.
-3. Record a 2-second audio clip and recognize the spoken word.
-4. Continuously record audio, recognize a series of spoken words, and provide the (start time, end time) for each word.<br>
+1. Recognize the words in a .wav audio file.
+2. Record for 2 seconds and recognize the single spoken word.
+3. Continuous recording with subtitle generation: recognize a series of spoken words and provide each word's (start time, end time).<br>
 
 Once the dependencies are installed, you can use it without any additional configuration.<br><br>
 
