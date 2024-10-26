@@ -22,7 +22,7 @@
 已经训练好的模型，模型在 `speech-commands` 测试集上的准确率为 **96.05%**。<br><br>
 
 
-#### 3、训练代码: `train.py`
+#### 3、训练代码: `Train.py`
 
 使用 `speech-commands` 数据集训练语音识别模型。<br><br>
 
@@ -63,7 +63,7 @@ This is a pre-trained model. The accuracy on the `speech-commands` test set is *
 
 <br>
 
-#### 3. Training Code: `train.py`
+#### 3. Training Code: `Train.py`
 
 This code trains the speech recognition model using the `speech-commands` dataset.
 
